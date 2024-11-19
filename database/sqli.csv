@@ -1,0 +1,8 @@
+pattern
+OR
+SELECT.*FROM
+UNION.*SELECT
+INSERT.*INTO
+DROP.*TABLE
+--.*--
+OR 1=1

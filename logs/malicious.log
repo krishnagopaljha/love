@@ -1,0 +1,10 @@
+
+Detected XSS payload: <script>
+Detected SQL Injection payload: 'OR '1'='1
+Detected XSS payload: <script>
+Detected XSS payload: <script>
+XSS detected: <script>
+XSS detected: <script>
+XSS detected: <script>
+XSS detected: <script>
+XSS detected: <script>

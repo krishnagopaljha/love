@@ -1,0 +1,87 @@
+/* Basic styling for the dashboard */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; /* Dark background */
+    color: #f4f4f4; /* Light text for contrast */
+}
+
+/* Container for content */
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Main heading style */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #4CAF50; /* Vibrant green color for heading */
+}
+
+/* Tab container */
+.tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+/* Tab button styling */
+.tablinks {
+    padding: 15px 25px;
+    background-color: #333; /* Dark background for tabs */
+    border: 1px solid #444;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    color: #f4f4f4; /* Light text */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tablinks:hover {
+    background-color: #444; /* Slightly lighter background on hover */
+    transform: translateY(-2px); /* Subtle hover effect */
+}
+
+.tablinks.active {
+    background-color: #4CAF50; /* Green when active */
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Shadow on active tab */
+}
+
+/* Tab content area styling */
+.tabcontent {
+    display: none;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #222; /* Dark background for content */
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #f4f4f4;
+    font-size: 18px;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #444; /* Slightly lighter on hover */
+    transform: translateY(-2px); /* Subtle hover effect */
+}
