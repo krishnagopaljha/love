@@ -23,9 +23,9 @@ def read_logs():
                     logs["sqli"].append(line)
                 elif "XSS" in line:
                     logs["xss"].append(line)
-                elif "DDOS" in line:
+                elif "DDoS" in line:
                     logs["ddos"].append(line)
-                elif "XML Injection" in line:
+                elif "XML" in line:
                     logs["xml"].append(line)
     
     return logs
