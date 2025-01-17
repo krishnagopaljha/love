@@ -2,7 +2,7 @@ import os
 import time
 import threading
 import urllib.parse
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler, HTTPServer, ThreadingHTTPServer
 import http.client
 import csv
 
@@ -115,18 +115,21 @@ class WAFHandler(BaseHTTPRequestHandler):
 
     def forward_request(self, method, body=None):
         """Forward clean requests to the upstream server."""
-        conn = http.client.HTTPConnection(UPSTREAM_HOST, UPSTREAM_PORT)
-        if method == "GET":
-            conn.request("GET", self.path, headers=self.headers)
-        elif method == "POST":
-            conn.request("POST", self.path, body=body, headers=self.headers)
-        response = conn.getresponse()
-        self.send_response(response.status)
-        for header, value in response.getheaders():
-            self.send_header(header, value)
-        self.end_headers()
-        self.wfile.write(response.read())
-        conn.close()
+        try:
+            conn = http.client.HTTPConnection(UPSTREAM_HOST, UPSTREAM_PORT, timeout=10)
+            if method == "GET":
+                conn.request("GET", self.path, headers=self.headers)
+            elif method == "POST":
+                conn.request("POST", self.path, body=body, headers=self.headers)
+            response = conn.getresponse()
+            self.send_response(response.status)
+            for header, value in response.getheaders():
+                self.send_header(header, value)
+            self.end_headers()
+            self.wfile.write(response.read())
+            conn.close()
+        except Exception as e:
+            self.send_error(500, f"Error forwarding request: {e}")
 
     def do_GET(self):
         """Handle GET requests."""
@@ -152,7 +155,7 @@ if __name__ == "__main__":
     # Start monitoring script in a separate thread
     threading.Thread(target=start_monitoring_app, daemon=True).start()
 
-    # Start the WAF server
+    # Start the WAF server with multithreading
     print(f"WAF starting on {WAF_HOST}:{WAF_PORT}")
-    server = HTTPServer((WAF_HOST, WAF_PORT), WAFHandler)
+    server = ThreadingHTTPServer((WAF_HOST, WAF_PORT), WAFHandler)
     server.serve_forever()
