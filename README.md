@@ -26,8 +26,8 @@ LiteWAF is a simple Web Application Firewall (WAF) designed to detect and block 
 
 1. Clone the repository or download the files:
     ```bash
-    git clone https://github.com/krishnagopaljha/love.git
-    cd love
+    git clone https://github.com/krishnagopaljha/litewaf.git
+    cd litewaf
     ```
 
 2. Install the required dependencies (Till today every package added is a part of python standard library so there is no need to manully install anything`):
@@ -53,4 +53,4 @@ LiteWAF is a simple Web Application Firewall (WAF) designed to detect and block 
 To run the WAF server:
 
 ```bash
-python love.py
+python litewaf.py
