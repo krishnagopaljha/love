@@ -1,5 +1,4 @@
 # LiteWAF 
-# Locking Out Vulnerabilities Effectively
 
 LiteWAF is a simple Web Application Firewall (WAF) designed to detect and block malicious activities such as DDoS, XSS, SQL Injection, and XML Injection attacks. It works by inspecting incoming HTTP requests and checking for malicious patterns in the request data, such as query parameters, POST bodies, and headers.
 
