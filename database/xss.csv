@@ -1,8 +1,8 @@
 pattern
-<script>
-<iframe>
-onerror=
-onload=
-javascript:
-alert(
+script
+iframe
+onerror
+onload
+javascript
+alert
 document.cookie

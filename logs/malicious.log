@@ -8,3 +8,77 @@ XSS detected: <script>
 XSS detected: <script>
 XSS detected: <script>
 XSS detected: <script>
+Tue Jan 21 11:06:11 2025: SQLi Detected: OR
+Tue Jan 21 11:06:59 2025: SQLi Detected: OR
+Tue Jan 21 11:12:02 2025: SQLi Detected: OR
+Tue Jan 21 11:12:11 2025: SQLi Detected: OR
+Tue Jan 21 11:12:11 2025: SQLi Detected: OR
+Tue Jan 21 11:12:15 2025: SQLi Detected: OR
+Tue Jan 21 11:14:26 2025: SQLi Detected: OR
+Tue Jan 21 11:14:43 2025: XSS Detected: <script>
+Tue Jan 21 11:15:41 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:41 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:41 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:41 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:44 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:44 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:44 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:44 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:44 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:44 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:44 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:15:50 2025: DDoS detected: 192.168.43.231 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Tue Jan 21 11:17:16 2025: DDoS detected: 192.168.43.249 exceeded 100 requests in 60 seconds.
+Thu Jan 30 15:01:27 2025: SQLi Detected: OR
+Thu Jan 30 15:06:23 2025: XSS Detected: script
+Thu Jan 30 15:06:26 2025: XSS Detected: alert
+Thu Jan 30 15:06:30 2025: XSS Detected: iframe
