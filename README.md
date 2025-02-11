@@ -1,7 +1,6 @@
-# LOVE WAF 
-# Locking Out Vulnerabilities Effectively
+# Lite WAF 
 
-LOVE WAF is a simple Web Application Firewall (WAF) designed to detect and block malicious activities such as DDoS, XSS, SQL Injection, and XML Injection attacks. It works by inspecting incoming HTTP requests and checking for malicious patterns in the request data, such as query parameters, POST bodies, and headers.
+Lite WAF is a simple Web Application Firewall (WAF) designed to detect and block malicious activities such as DDoS, XSS, SQL Injection, and XML Injection attacks. It works by inspecting incoming HTTP requests and checking for malicious patterns in the request data, such as query parameters, POST bodies, and headers.
 
 ## Features
 
@@ -27,8 +26,8 @@ LOVE WAF is a simple Web Application Firewall (WAF) designed to detect and block
 
 1. Clone the repository or download the files:
     ```bash
-    git clone https://github.com/krishnagopaljha/love.git
-    cd love
+    git clone https://github.com/krishnagopaljha/Lite.git
+    cd Lite
     ```
 
 2. Install the required dependencies (Till today every package added is a part of python standard library so there is no need to manully install anything`):
@@ -54,4 +53,4 @@ LOVE WAF is a simple Web Application Firewall (WAF) designed to detect and block
 To run the WAF server:
 
 ```bash
-python love.py
+python Lite.py
